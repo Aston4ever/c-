@@ -7,5 +7,7 @@ sbyte x = 19; // -128 to 127
 short y = -2; //-32767 to 32767
 bool z = true;
 char c = 'a';
+int i, t = 100;
 string str = "Hello World!";
 Console.WriteLine($"age: {age}, ageEmpty: {ageEmpty}, PI: {PI}");
+Console.Read();
