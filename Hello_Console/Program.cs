@@ -9,5 +9,6 @@ bool z = true;
 char c = 'a';
 int i, t = 100;
 string str = "Hello World!";
+String str1 = new String("Hello World!");
 Console.WriteLine($"age: {age}, ageEmpty: {ageEmpty}, PI: {PI}");
 Console.Read();
