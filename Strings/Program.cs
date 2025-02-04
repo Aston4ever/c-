@@ -15,3 +15,22 @@ Console.WriteLine(x2);
 string capsName = name.ToUpper();
 
 
+//Concatenation
+string concatenation = "Hello" + " " + name.ToUpper();
+// String formatting
+string userName = "Aston";
+string password = "qwerty";
+Console.WriteLine("My name is {0} and my pass is {1}", userName, password);
+// String interpolation
+Console.WriteLine($"My name is {userName} and my pass is {password}");
+//Verbatim strngs
+Console.WriteLine(
+    @" Hello
+    My name is {0} and my pass is {1}
+
+    1asdgf");
+
+//Verbatim string + interpolation
+Console.WriteLine($@"   Hello 
+    My name is {userName} and my pass is {password}");
+
