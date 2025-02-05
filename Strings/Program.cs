@@ -3,7 +3,7 @@
 string name = "Aston";
 CoolMethod();
 ///<summary>
-// Hello
+/// Hello
 ///</summary>
 void CoolMethod()
 {
