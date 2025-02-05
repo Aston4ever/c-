@@ -3,6 +3,7 @@ string userInput = Console.ReadLine();
 try
 {
     int num = int.Parse(userInput);
+    int numX = num / 0;
 }
 catch (OverflowException)
 {
@@ -11,6 +12,10 @@ catch (OverflowException)
 catch (FormatException)
 {
     Console.WriteLine("invalid number");
+}
+catch (Exception e)
+{
+    Console.WriteLine("Division by zero " + e.Message);
 }
 finally
 {
