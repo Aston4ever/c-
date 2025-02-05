@@ -1,4 +1,4 @@
-﻿/*
+﻿
 
 string name = "Aston";
 CoolMethod();
@@ -35,7 +35,7 @@ Console.WriteLine(
 //Verbatim string + interpolation
 Console.WriteLine($@"   Hello 
     My name is {userName} and my pass is {password}");
-*/
+
 //HomeWork
 string? str = Console.ReadLine();
 Console.WriteLine($"you have entered {str}");
