@@ -1,7 +1,9 @@
-﻿string name = "Aston";
+﻿/*
+
+string name = "Aston";
 CoolMethod();
 ///<summary>
-/// Hello
+// Hello
 ///</summary>
 void CoolMethod()
 {
@@ -33,4 +35,15 @@ Console.WriteLine(
 //Verbatim string + interpolation
 Console.WriteLine($@"   Hello 
     My name is {userName} and my pass is {password}");
+*/
+//HomeWork
+string? str = Console.ReadLine();
+Console.WriteLine($"you have entered {str}");
+char symbolToFind = Console.ReadKey().KeyChar;
+Console.WriteLine($"you have entered key {symbolToFind}");
+int ind = str.IndexOf(symbolToFind); 
+Console.WriteLine($"The first index of entered symbol is {ind}");
+
+
+
 

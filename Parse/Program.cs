@@ -7,3 +7,4 @@ string result = myString1 + myString2;
 int numresult = num1 + num2;
 Console.WriteLine(numresult);
 Console.ReadLine();
+
