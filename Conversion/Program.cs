@@ -9,3 +9,7 @@ double myDouble2 = myFloat; //Если нет потери данных то м�
 
 //TYpe conversion
 string myString = myDouble2.ToString(); //Преобразование лбого типа в строку
+
+int userInput = Convert.ToInt32(Console.ReadLine());
+int userInput2 = Convert.ToByte(Console.ReadLine());
+int userInput3 = Convert.ToChar(Console.ReadLine());

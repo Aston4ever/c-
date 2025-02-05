@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parse", "Parse\Parse.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{58B9CE0C-E988-4D7D-94F7-1745A6FE2CCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{15B8E7EB-2A2C-4EB0-A83B-B87BAC2A15D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{58B9CE0C-E988-4D7D-94F7-1745A6FE2CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B9CE0C-E988-4D7D-94F7-1745A6FE2CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B9CE0C-E988-4D7D-94F7-1745A6FE2CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B8E7EB-2A2C-4EB0-A83B-B87BAC2A15D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B8E7EB-2A2C-4EB0-A83B-B87BAC2A15D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B8E7EB-2A2C-4EB0-A83B-B87BAC2A15D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B8E7EB-2A2C-4EB0-A83B-B87BAC2A15D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
