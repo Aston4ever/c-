@@ -1,7 +1,7 @@
 ﻿int age = 17;
 switch (age)
 {
-    case 1 when age < 18:
+    case 1:
         Console.WriteLine("Hello World!");
         break;
     case 2:
@@ -12,9 +12,11 @@ switch (age)
         break;
     default:
         Console.WriteLine("no age was found");
-    
+        break;
 }
-
+string myGender = "male";
+string gender = myGender == "male" ? "male" : 
+    myGender == "female" ? "female" : "no gender";
 
 /*
  *  if (true\false) {
@@ -22,14 +24,6 @@ switch (age)
  *  } else {
  *      code to execute if FALSE
  *  }
- *
- *
- *
- *
- *
- *
- *
- * 
  */
  
  /*
