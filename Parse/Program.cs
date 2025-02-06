@@ -8,3 +8,9 @@ int numresult = num1 + num2;
 Console.WriteLine(numresult);
 Console.ReadLine();
 
+//Try Parse
+string userInput = Console.ReadLine();
+int intUserInput;
+
+bool isInt = int.TryParse(userInput, out intUserInput);
+
