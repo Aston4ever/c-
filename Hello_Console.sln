@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFELSE_switch_ternary", "IFELSE_switch_ternary\IFELSE_switch_ternary.csproj", "{CC05951E-EC9F-4F6C-B071-FF4A8CF994EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{5FCA1575-661F-4DB2-9D74-33C8B218C482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{CC05951E-EC9F-4F6C-B071-FF4A8CF994EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC05951E-EC9F-4F6C-B071-FF4A8CF994EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC05951E-EC9F-4F6C-B071-FF4A8CF994EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCA1575-661F-4DB2-9D74-33C8B218C482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCA1575-661F-4DB2-9D74-33C8B218C482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCA1575-661F-4DB2-9D74-33C8B218C482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCA1575-661F-4DB2-9D74-33C8B218C482}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
