@@ -4,11 +4,12 @@ namespace OOP.Human;
 
 class Human
 {
-    public string name;
+    private string name;
     private string lastName;
-    private int age = 10;
+    private int age;
+    
 
-    public void Introduce()
+    private void Introduce()
     {
         Console.WriteLine($"Hello, {name + " " + lastName}!, you are {1}");
     }
