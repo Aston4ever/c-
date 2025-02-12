@@ -3,14 +3,23 @@
 namespace OOP.Human;
 
 class Human
-{
-    private string name;
+{ // Members - это части этого класса например переменные, методы и т.д.
+    private string name; // field
     private string lastName;
+    private string eyeColor;
     private int age;
-    
 
-    private void Introduce()
+
+    public Human(string name, string lastName, string eyeColor , int age) //Конструктор
     {
-        Console.WriteLine($"Hello, {name + " " + lastName}!, you are {1}");
+        this.name  = name;
+        this.lastName = lastName;
+        this.eyeColor = eyeColor;
+        this.age = age;
+    }
+
+    public void Introduce() //methods
+    {
+        Console.WriteLine($"Hello, {name + " " + lastName}!, you are {age}");
     }
 }
