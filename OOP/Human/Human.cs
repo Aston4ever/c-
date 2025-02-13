@@ -9,7 +9,7 @@ class Human
     private string eyeColor;
     private int age;
 
-    public Human() //Default 
+    public Human() //Default constructor
     {
         
     }
