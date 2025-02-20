@@ -19,4 +19,22 @@ foreach (var k in nums3)
 {
     Console.WriteLine(k);
 }
+Console.WriteLine("----------------ultidimencional arrays---------------");
 
+//Multidimencional arrays
+string[,,] matrix = new string[2,3,3]
+{
+    {
+        { "a", "b", "c" },
+        { "d", "e", "f" },
+        { "g", "h", "i" }
+    },
+    {
+        { "a", "b", "c" },
+        { "d", "e", "f" },
+        { "g", "h", "i" }
+    }
+    
+};
+Console.WriteLine(matrix[1,1,1]);
+Console.WriteLine($"Number of dimenciions is {matrix.Rank}");
