@@ -19,7 +19,7 @@ foreach (var k in nums3)
 {
     Console.WriteLine(k);
 }
-Console.WriteLine("----------------ultidimencional arrays---------------");
+Console.WriteLine("----------------Multidimencional arrays---------------");
 
 //Multidimencional arrays
 string[,,] matrix = new string[2,3,3]
@@ -52,3 +52,22 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 
 Console.WriteLine(matrix[1,1,1]);
 Console.WriteLine($"Number of dimenciions is {matrix.Rank}");
+
+//Jagged Arrays
+int[][] jaggedArray = new int[][]
+{
+    new int[] { 1, 2, 3 },
+    new int[] { 4, 5, 6 },
+    new int[] { 7, 8, 9 },
+    new int[] { 10, 11, 12 },
+};
+Console.WriteLine("------------Jagged Arrays-------------");
+for (int i = 0; i < jaggedArray.Length; i++)
+{
+    for (int j = 0; j < jaggedArray[i].Length; j++)
+    {
+        Console.Write(jaggedArray[i][j] + " ");
+    }
+    Console.WriteLine();
+}
+
