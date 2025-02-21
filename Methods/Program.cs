@@ -49,3 +49,11 @@ void paramsMethod(params int[] gradesArray) //превращает кучу па
         Console.Write(gradesArray[i] + " ");
     }
 }
+paramsObjMethod(1, "hello", true, 1.324, 0x100010010);
+void paramsObjMethod(params object[] obj)
+{
+    for (int i = 0; i < obj.Length; i++)
+    {
+        Console.Write(obj[i]);
+    }
+}
