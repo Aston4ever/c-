@@ -40,3 +40,12 @@ double GetAverage(int[] gradesArray)
 }
 
 //Arrays as parameters
+paramsMethod(1, 3,4,5,6,7,8,9,10,11,77,12, 67);  //Можно указывать сколько угодно параметров, и даже не указывать вовсе
+
+void paramsMethod(params int[] gradesArray) //превращает кучу параметров в массив
+{
+    for (int i = 0; i < gradesArray.Length; i++)
+    {
+        Console.Write(gradesArray[i] + " ");
+    }
+}
