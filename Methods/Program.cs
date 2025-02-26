@@ -19,6 +19,11 @@ string friendName = Console.ReadLine();
 void PrintName(string friendName)
 {
     Console.WriteLine($"Hello from Method!!!{friendName} My Friend!");
+    {
+        {
+            
+        }
+    }
 }
 PrintName(friendName);
 
@@ -56,4 +61,18 @@ void paramsObjMethod(params object[] obj)
     {
         Console.Write(obj[i]);
     }
+}
+
+int min = minV(3,-1,-1000, 199, 56);
+int minV(params int[] numbers)
+{
+    int min = int.MaxValue;
+    foreach (var k in numbers)
+    {
+        if (k < min)
+        {
+            min = k;
+        }
+    }
+    return min;
 }
