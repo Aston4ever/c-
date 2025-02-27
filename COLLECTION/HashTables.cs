@@ -8,6 +8,7 @@ public class HashTables
     void MainHere()
     {
         Hashtable studentsTable = new Hashtable();
+        
         Students stud1 = new Students(1,"John", 98);
         Students stud2 = new Students(2,"Jane", 99);
         Students stud3 = new Students(3,"Mary", 76);
@@ -31,6 +32,29 @@ public class HashTables
         {
             
         }
+/*--------------------------------------------------------------------*/        
+        Students[] students = new Students[5];
+
+        students[0] = new Students(1, "Aston", 67);
+        students[1] = new Students(2, "Alex", 61);
+        students[2] = new Students(3, "Apex", 98);
+        students[3] = new Students(1, "Alyx", 13);
+        students[4] = new Students(5, "Alice", 56);
+
+        
+        foreach (Students student in students)
+        {
+            if (!studentsTable.ContainsKey(student.ID))
+            {
+                studentsTable.Add(student.ID, student);
+            }
+            else
+            {
+                Console.WriteLine("Student ID already exists!");
+            }
+            
+        } 
+/*--------------------------------------------------------------------*/               
     }
     
     
