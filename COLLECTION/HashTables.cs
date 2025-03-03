@@ -18,6 +18,8 @@ public class HashTables
         studentsTable.Add(stud2.ID, stud2);
         studentsTable.Add(stud3.ID, stud3);
         studentsTable.Add(stud4.ID, stud4);
+        studentsTable.Add(stud1, stud4);
+        
         
         //
         Students stud1Info = (Students)studentsTable[stud1.ID]; //Можно получить отдельный айтем с известным ID
