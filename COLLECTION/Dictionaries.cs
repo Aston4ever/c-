@@ -27,8 +27,16 @@ public class Dictionaries
         }
         
         string key = "CEO";
-        
-        
+
+        if (employeesDirectory.ContainsKey(key))
+        {
+            
+        }
+
+        if (employeesDirectory.TryGetValue(key, out Employee outEmp))
+        {
+            
+        }
     }
     
 }
