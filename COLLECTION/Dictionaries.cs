@@ -28,15 +28,21 @@ public class Dictionaries
         
         string key = "CEO";
 
-        if (employeesDirectory.ContainsKey(key))
+        if (employeesDirectory.ContainsKey(key)) //ПРоверка есть ли такой ключ
         {
             
         }
-
-        if (employeesDirectory.TryGetValue(key, out Employee outEmp))
+        Employee empEmpty = null;
+        if (employeesDirectory.TryGetValue(key, out Employee outEmp)) 
         {
             
         }
+        
+        // строка в словаре это struct. Еее можно получить как KeyValuePair LINQ. 
+        // Так же Словарь это последователльность. Каждому ключу как в массиве присваивается индекс начиная с 0
+        KeyValuePair<string, Employee> kvp = employeesDirectory.ElementAt(0);
+        Console.WriteLine(kvp.Key); //Получить из STRUCT ключ или значение
+        Console.WriteLine(kvp.Value);
     }
     
 }
