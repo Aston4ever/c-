@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Diagnostics;
+using Inheritance;
 
-Console.WriteLine("Hello, World!");
+Radio radio = new Radio("Sony", false);
+
+radio.SwitchOn();
+radio.ListenToTheRadio();
