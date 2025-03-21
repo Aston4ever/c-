@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using Inheritance;
+﻿using Inheritance;
 
 Radio radio = new Radio("Sony", false);
 
